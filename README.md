@@ -10,7 +10,7 @@ by adding `mailex` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:mailex, "~> 0.1.0"}
+    {:mailex, git: "https://github.com/luphex/mailex.git"}
   ]
 end
 ```
